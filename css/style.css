@@ -65,6 +65,7 @@ body {
 }
 
 .ratings__button {
+	font-family: inherit;
 	width: 50px;
 	height: 50px;
 	border-radius: 30px;
@@ -87,5 +88,19 @@ body {
 }
 
 .interactive-rating-component__button-submit {
-	
+	width: 100%;
+	height: 50px;
+	border: none;
+	background: unset;
+	background-color: var(--secondary-color);
+	border-radius: 30px;
+	color: var(--tertiary-color);
+	font-family: 'Overpass';
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+
+.interactive-rating-component__button-submit:hover {
+	background-color: var(--tertiary-color);
+	color: var(--secondary-color);
 }
