@@ -35,7 +35,11 @@ body {
 	display: none;
 }
 
-.thank-you-box {
+.thank-you-box--hidden {
+	display: none;
+}
+
+.thank-you-box--visible {
 	width: 400px;
 	height: 400px;
 	background: radial-gradient(
@@ -48,10 +52,6 @@ body {
 	flex-flow: column;
 	justify-content: space-around;
 	align-items: center;
-}
-
-.thank-you-box--hidden {
-	display: hidden;
 }
 
 .top-left-icon {
@@ -83,16 +83,17 @@ body {
 	padding-right: 3px;
 }
 
-.thank-you-box h1 {
+.thank-you-box--visible h1 {
 	font-family: 'Overpass';
 	font-weight: 400;
 	font-size: 2rem;
 	color: var(--tertiary-color);
 }
 
-.thank-you-box p {
+.thank-you-box--visible p {
 	color: var(--mediumgray-color);
 	text-align: center;
+	font-family: 'Overpass';
 }
 
 .interactive-rating-component h1 {
@@ -122,7 +123,7 @@ body {
 	font-family: inherit;
 	width: 50px;
 	height: 50px;
-	border-radius: 30px;
+	border-radius: 25px;
 	border: none;
 	color: var(--mediumgray-color);
 	background-color: var(--foreground-color);
@@ -139,6 +140,7 @@ body {
 .ratings__button:active,
 .ratings__button--active {
 	background-color: var(--secondary-color);
+	color: var(--tertiary-color);
 }
 
 .interactive-rating-component__button-submit {
