@@ -1,1 +1,15 @@
 /* fonts */
+
+@font-face {
+	font-family: 'Overpass';
+	src: url(../assets/fonts/overpass/Overpass-Regular.ttf);
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Overpass';
+	src: url(../assets/fonts/overpass/Overpass-Bold.ttf);
+	font-weight: 700;
+	font-style: normal;
+}

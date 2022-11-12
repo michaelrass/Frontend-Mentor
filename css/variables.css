@@ -1,1 +1,12 @@
 /* Variables.css */
+
+:root {
+	--background-color: hsl(216, 12%, 8%);
+	--foreground-color: hsl(212, 22%, 17%);
+	--primary-color: hsl(212, 22%, 12%);
+	--top-highlight-color: hsl(213, 20%, 19%);
+	--secondary-color: hsl(25, 97%, 53%);
+	--tertiary-color: hsl(0, 0%, 100%);
+	--lightgray-color: hsl(217, 12%, 63%);
+	--mediumgray-color: hsl(216, 12%, 54%);
+}
