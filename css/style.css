@@ -35,6 +35,25 @@ body {
 	display: none;
 }
 
+.thank-you-box {
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(
+		at top,
+		hsl(215, 31%, 15%), hsl(212, 27%, 11%)
+	);
+	border-radius: 30px;
+	padding: 2rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.thank-you-box--hidden {
+	display: hidden;
+}
+
 .top-left-icon {
 	width: 50px;
 	height: 50px;
@@ -43,6 +62,37 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.thank-you-box__you-selected {
+	width: 250px;
+	height: 40px;
+	background-color: var(--foreground-color);
+	color: var(--secondary-color);
+	font-family: 'Overpass';
+	font-weight: 400;
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+}
+
+.you-selected__number {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.thank-you-box h1 {
+	font-family: 'Overpass';
+	font-weight: 400;
+	font-size: 2rem;
+	color: var(--tertiary-color);
+}
+
+.thank-you-box p {
+	color: var(--mediumgray-color);
+	text-align: center;
 }
 
 .interactive-rating-component h1 {

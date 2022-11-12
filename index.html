@@ -9,7 +9,7 @@
 		<meta name="description" content="Structure for Frontend Mentor start. Make /feature-branch from this for new challenges">
 	</head>
 	<body>
-		<section class="interactive-rating-component">
+		<section class="interactive-rating-component--hidden">
 			<div class="top-left-icon">
 				<img src="./assets/icons/icon-star.svg" alt="an orange star icon">
 			</div>
@@ -32,37 +32,25 @@
 			<button class="interactive-rating-component__button-submit">SUBMIT</button>
 		</section>
 
+		<section class="thank-you-box">
+			<div class="thank-you-box__image-container">
+				<img class="image-container__thank-you-image" src="./assets/icons/illustration-thank-you.svg" alt="">
+			</div>
 
+			<span class="thank-you-box__you-selected">You selected 
+				<span class="you-selected__number">
+					 1-5
+				</span> 
+				 out of 5
+			</span>
 
+			<h1>Thank you!</h1>
 
-
-
-
-
-<!-- 		
-		 Rating state start
-
-		  How did we do?
-
-		  Please let us know how we did with your support request. All feedback is appreciated 
-		  to help us improve our offering!
-		
-		  1 2 3 4 5
-		
-		  Submit
-		
-		 Rating state end
-		
-	Thank you state start
-		
-		  You selected        Add rating here             out of 5
-		
-		  Thank you!
-		
-		  We appreciate you taking the time to give a rating. If you ever need more support, 
-		  don’t hesitate to get in touch!
-		
-		Thank you state end -->
+			<p>
+				We appreciate you taking the time to give a rating. If you ever need more support, 
+				don't hesitate to get in touch!
+			</p>
+		</section>
 		  
 		<script src="./js/script.js"></script>
 	</body>
