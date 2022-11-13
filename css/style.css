@@ -83,20 +83,28 @@ body {
 
 .text-container__question-container {
 	width: 100%;
+	height: 100%;
 	border-bottom: 1px solid var(--dividers-color);
-	padding-bottom: 2rem;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
 }
 
 .text-container__question {
 	width: 100%;
+	height: 50px;
 	font-size: 2rem;
 	font-weight: 400;
 	display: flex;
 	border: none;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 1rem;
 	color: var(--very-dark-blue-text);
+	z-index: 10;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .text-container__question:hover {
@@ -131,5 +139,6 @@ body {
 	height: 100%;
 	transition: all 200ms ease-in-out;
 	color: var(--very-dark-grayish-blue);
-	
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
