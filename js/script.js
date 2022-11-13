@@ -5,10 +5,6 @@ const advice_api_url = 'https://api.adviceslip.com/advice';
 
 buttonGetNewAdvice.addEventListener('click', handleButtonGetNewAdviceClick);
 
-function handleButtonGetNewAdviceClick() {
-	getNewAdvice();
-}
-
 async function getNewAdvice() {
 	const response = await fetch(advice_api_url);
 	const result = await response.json();
@@ -18,6 +14,10 @@ async function getNewAdvice() {
 
 	adviceIdWindow.innerHTML = adviceId;
 	adviceTextWindow.innerHTML = adviceText;
+}
+
+function handleButtonGetNewAdviceClick() {
+	getNewAdvice();
 }
 
 getNewAdvice();
