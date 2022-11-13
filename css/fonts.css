@@ -1,1 +1,8 @@
 /* fonts */
+
+@font-face {
+	font-family: 'Manrope';
+	src: url(../assets/fonts/Manrope/Manrope-ExtraBold.ttf);
+	font-weight: 800;
+	font-style: normal;
+}
