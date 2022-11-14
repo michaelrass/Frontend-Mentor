@@ -19,19 +19,19 @@ function openNextQuestion(event, index) {
 }
 
 function render(index) {
+	
 	currentIndex = index;
 	buttonQuestions.forEach(button => {
 		button.classList.remove('text-container__question--active');
 	})
-
+	
 	picturesArrow.forEach(picture => {
 		picture.classList.remove('arrow-down--flipped');
 	})
-
+	
 	answers.forEach(answer => {
 		answer.classList.remove('text-container__answer--visible');
-	})
-
+	})	
 	buttonQuestions[currentIndex].classList.add('text-container__question--active');
 	picturesArrow[currentIndex].classList.add('arrow-down--flipped');
 	answers[currentIndex].classList.add('text-container__answer--visible');
