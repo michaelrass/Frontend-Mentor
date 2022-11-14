@@ -1,1 +1,15 @@
-/* Variables.css */
+:root {
+	--profile-card: hsl(246, 80%, 60%);
+
+	--tab-work:	hsl(15, 100%, 70%);
+	--tab-play: hsl(195, 74%, 62%);
+	--tab-study: hsl(348, 100%, 68%);
+	--tab-excercise: hsl(145, 58%, 55%);
+	--tab-social: hsl(264, 64%, 52%);
+	--tab-self-care: hsl(43, 84%, 65%);
+
+	--background-color: hsl(226, 43%, 10%);
+	--card-background-color: hsl(235, 46%, 20%);
+	--desatured-blue: hsl(235, 45%, 61%);
+	--pale-blue: hsl(236, 100%, 87%);
+}
