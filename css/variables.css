@@ -10,6 +10,8 @@
 
 	--background-color: hsl(226, 43%, 10%);
 	--card-background-color: hsl(235, 46%, 20%);
-	--desatured-blue: hsl(235, 45%, 61%);
+	--desaturated-blue: hsl(235, 45%, 61%);
 	--pale-blue: hsl(236, 100%, 87%);
+
+	--font-size-card-titles: 18px;
 }
