@@ -71,3 +71,23 @@
 	height: 100%;
 	object-fit: contain;
 }
+
+.item-2 {
+	background-color: var(--tab-play);
+}
+
+.item-3 {
+	background-color: var(--tab-study);
+}
+
+.item-4 {
+	background-color: var(--tab-excercise);
+}
+
+.item-5 {
+	background-color: var(--tab-social);
+}
+
+.item-6 {
+	background-color: var(--tab-self-care);
+}
