@@ -18,3 +18,8 @@ body {
 	background-color: var(--background-color);
 	font-family: 'Rubik';
 }
+
+.time-tracking {
+	margin: 40px 15px;
+	max-width: 375px;
+}
