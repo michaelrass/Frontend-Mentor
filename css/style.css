@@ -18,10 +18,13 @@ body {
 	width: 100%;
 	background-color: var(--background-color);
 	font-family: 'Rubik';
+	margin: 40px auto;
 }
 
 .time-tracking {
+	height: 100%;
 	margin: 40px 15px;
 	max-width: 375px;
 	z-index: 9999;
+	margin: auto;
 }
