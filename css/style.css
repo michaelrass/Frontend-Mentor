@@ -2,6 +2,7 @@
 @import url(./variables.css);
 @import url(./fonts.css);
 @import url(./profile-card.css);
+@import url(./stats-tab.css);
 
 * {
 	box-sizing: border-box;
@@ -22,4 +23,5 @@ body {
 .time-tracking {
 	margin: 40px 15px;
 	max-width: 375px;
+	z-index: 9999;
 }
