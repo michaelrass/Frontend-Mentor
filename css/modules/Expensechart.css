@@ -1,0 +1,154 @@
+.expense-chart {
+	width: 30rem;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: column;
+	align-items: center;
+	gap: 2rem;
+}
+
+.expense-chart__balance-section {
+	width: 100%;
+	height: 6.95rem;
+	background-color: var(--primary-color);
+	border-radius: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px;
+}
+
+.balance-section__my-balance {
+	display: flex;
+	flex-flow: column;
+	justify-content: start;
+	align-items: flex-start;
+	gap: 0.5rem;
+	color: var(--card-white);
+}
+
+.my-balance__text {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.my-balance__sum {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.expense-chart__stats-section {
+	width: 100%;
+	height: 28.4rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FFFBF6;
+	border-radius: 20px;
+	padding: 32px 40px;
+}
+
+.stats-section__title-container {
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	color: var(--dark-brown);
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.stats-section__columns {
+	width: 100%;
+	height: 10rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+	border-bottom: 2px solid #F8E9DD;
+}
+
+.columns_column {
+	width: 100%;
+	height: 160px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.days__column {
+	width: 50px;
+	height: 80px;
+	background-color: var(--primary-color);
+	border-radius: 5px;
+	border: none;
+}
+
+.days__column:hover {
+	background-color: var(--secondary-color);
+}
+
+.days__column--active {
+	background-color: #B4E0E5;
+}
+
+.columns_day {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.days__day {
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.stats-section__total-section {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.total-section__this-period {
+	width: 50%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.this-period__period {
+	color: var(--medium-brown);
+	font-size: 1rem;
+}
+
+.this-period__amount {
+	font-size: 48px;
+	color: var(--dark-brown);
+	font-weight: 700;
+}
+
+.this-period__historic {
+	width: 50%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.historic__value {
+	color: var(--dark-brown);
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.historic__period {
+	color: var(--medium-brown);
+	font-size: 1rem;
+}
