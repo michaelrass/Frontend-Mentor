@@ -84,6 +84,7 @@
 	background-color: var(--primary-color);
 	border-radius: 5px;
 	border: none;
+	position: relative;
 }
 
 .days__column:hover {
@@ -91,7 +92,7 @@
 }
 
 .days__column--active {
-	background-color: #B4E0E5;
+	background-color: #B4E0E580
 }
 
 .columns_day {
@@ -99,6 +100,24 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.column__hover-value {
+	display: none;
+}
+
+.column__hover-value--active {
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -2.5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--card-white);
+	background-color: var(--dark-brown);
+	border-radius: 5px;
+	padding: 0.2rem;
 }
 
 .days__day {
