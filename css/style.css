@@ -23,8 +23,71 @@ body {
 
 .time-tracking {
 	height: 100%;
-	margin: 40px 15px;
+	margin: 40px auto;
 	max-width: 375px;
 	z-index: 9999;
-	margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.time-tracking {
+		width: 100%;
+		max-height: 600px;
+		max-width: 1440px;
+		margin: 40px auto;
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(4, 25%);
+		grid-template-rows: repeat(2, 50%);
+		align-items: center;
+	}
+
+	.time-tracking__profile-container {
+		grid-column: 1;
+		height: 100%;
+		grid-row: span 2;
+	}
+
+	.profile-container__image-and-name {
+		height: 70%;
+		padding-left: 2rem;
+		flex-flow: column;
+		gap: 2.5rem;
+		align-items: flex-start;
+		border-radius: 1rem;
+		z-index: 999;
+	}
+
+	.profile-container__periodical {
+		height: 35%;
+		padding-top: 1rem;
+		flex-flow: column;
+		justify-content: center;
+		align-items: start;
+		z-index: 1;
+	}
+
+	.image-and-name__image-container {
+		position: absolute;
+		top: 2rem;
+		left: 2rem;
+	}
+
+	.name-container__name {
+		font-size: 2.5rem;
+	}
+
+	.time-tracking__tab-container {
+		height: 100%;
+	}
+
+	.tab-container__stats {
+		height: 80%;
+	}
 }
