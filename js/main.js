@@ -1,3 +1,3 @@
-import ExampleModule from "./modules/ExampleModule.js";
+import ExpenseChart from "./modules/ExpenseChart.js";
 
-ExampleModule();
+ExpenseChart();
