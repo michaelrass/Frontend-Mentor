@@ -1,1 +1,8 @@
-/* html, body, anchor elements and basic css */
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Poppins';
+	font-weight: 400;
+}
