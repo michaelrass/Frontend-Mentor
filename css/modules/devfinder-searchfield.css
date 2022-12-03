@@ -18,7 +18,7 @@
 }
 
 #usersearchfield {
-	width: 85%;
+	width: 60%;
 	height: 100%;
 	margin-left: 1rem;
 	border: none;
@@ -44,12 +44,29 @@
 	outline: none;
 }
 
+.search-container__no-result-container {
+	display: none;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	color: #F74646;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.search-container__no-result-container--active {
+	display: block;
+}
+
 .search-container__button {
 	padding: 0.8rem 1.5rem;
 	border-radius: var(--border-radius-button);
 	border: none;
 	font-size: var(--font-size-h3);
 	font-weight: 700;
+}
+
+.search-container__button:hover {
+	background-color: var(--search-button-hover);
 }
 
 .search-container__button--lightmode {

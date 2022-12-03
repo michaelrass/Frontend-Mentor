@@ -20,17 +20,14 @@
 	--font-size-h4: 0.86rem;	/* 13px */	/* REG. */
 	--font-size-search: 1.2rem;/* 18px */	/* REG. */
 	--font-size-body: 1rem; 	/* 15px */	/* REG. */
-	
-	/* Line Height Headers */
-	--line-height-h1: 2.53rem; /* 38px */
-	--line-height-h1: 2.20rem; /* 33px */
-	--line-height-h1: 1.60rem; /* 24px */
-	--line-height-h1: 1.33rem; /* 20px */
 
 	/* Border Radius */
 	--border-radius-normal: 15px;
-	--border-radius-button: 15px;
+	--border-radius-button: 10px;
 
 	/* box-shadow */
 	--box-shadow-normal: 0 16px 30px -10px #465fbb30;
+
+	/* Search Button hover */
+	--search-button-hover: #60ABFF; 
 }

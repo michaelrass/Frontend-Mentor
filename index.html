@@ -31,17 +31,21 @@
 				
 				<input type="search" name="usersearchfield" id="usersearchfield" placeholder="Search Github username...">
 
+				<div class="search-container__no-result-container">
+					No results
+				</div>
+				
 				<button class="search-container__button search-container__button--lightmode">Search</button>
 			</section>
 
-			<section class="devfinder__result-container">
+			<section class="devfinder__result-container devfinder__result-container--lightmode">
 				<div class="result-container__top-information">
 					<div class="top-information__profile-image-container">
-						<img src="" alt="">
+						<img class="profile-image-container__image" src="" alt="">
 					</div>
 
 					<div class="top-information__user-title-container">
-						<span class="user-title-container__user-name">
+						<span class="user-title-container__user-name user-title-container__user-name--lightmode">
 							The Octocat
 						</span>
 
@@ -52,58 +56,58 @@
 						</span>
 
 						<span class="user-title-container__bio">
-							<p class="bio__text">
+							<p class="bio__text bio__text--lightmode">
 								This profile has no bio
 							</p>
 						</span>
 					</div>
 
-					<div class="top-information__joined-info">
+					<div class="top-information__joined-info top-information__joined-info--lightmode">
 						<span class="joined-info__info">
 							Joined 25 Jan 2011
 						</span>
 					</div>
 				</div>
 
-				<div class="result-container__statistic-container">
+				<div class="result-container__statistic-container result-container__statistic-container--lightmode">
 					<div class="statistic-container__repos-container">
-						<span class="repos-container__title">Repos</span>
-						<span class="repos-container__value">8</span>
+						<span class="repos-container__title statistics-container__titles--lightmode">Repos</span>
+						<span class="repos-container__value statistics-container__values--lightmode">8</span>
 					</div>
 
 					<div class="statistic-container__followers-container">
-						<span class="followers-container__title">Followers</span>
-						<span class="followers-container__value">3938</span>
+						<span class="followers-container__title statistics-container__titles--lightmode">Followers</span>
+						<span class="followers-container__value statistics-container__values--lightmode">3938</span>
 					</div>
 
 					<div class="statistic-container__following-container">
-						<span class="following-container__title">Following</span>
-						<span class="following-container__value">9</span>
+						<span class="following-container__title statistics-container__titles--lightmode">Following</span>
+						<span class="following-container__value statistics-container__values--lightmode">9</span>
 					</div>
 				</div>
 
-				<div class="result-container__socials-container">
+				<div class="result-container__socials-container result-container__socials-container--lightmode">
 					<div class="socials-container__divider-top">
-						<a href="" class="divider-top__location">
-							<img class="location__location-logo" src="" alt="">
+						<a href="" class="divider-top__location socials--lightmode">
+							<img class="location__location-logo" src="/assets/img/icon-location.svg" alt="">
 							<span class="location__text">San Francisco</span>
 						</a>
 
-						<a href="" class="divider-top__twitter">
-							<img class="twitter__twitter-logo" src="" alt="">
+						<a href="" class="divider-top__twitter socials--lightmode socials__notavailable--lightmode">
+							<img class="twitter__twitter-logo" src="/assets/img/icon-twitter.svg" alt="">
 							<span class="twitter__text">Not Available</span>
 						</a>
 					</div>
 					
 					<div class="socials-container__divider-bottom">
-						<a href="" class="divider-bottom__homepage">
-							<img class="homepage__homepage-logo" src="" alt="">
+						<a href="" class="divider-bottom__homepage socials--lightmode">
+							<img class="homepage__homepage-logo" src="/assets/img/icon-website.svg" alt="">
 							<span class="homepage__text">https://github.blog</span>
 						</a>
 	
-						<a href="" class="divider-top__github-profile">
-							<img class="github-profile__github-logo" src="" alt="">
-							<span class="twitter__text">@github</span>
+						<a href="" class="divider-bottom__company socials--lightmode">
+							<img class="company__company-logo" src="/assets/img/icon-company.svg" alt="">
+							<span class="company__text">@github</span>
 						</a>
 					</div>
 				</div>

@@ -1,0 +1,204 @@
+.devfinder__result-container {
+	height: 419px;
+	width: 100%;
+	border-radius: var(--border-radius-normal);
+	box-shadow: var(--box-shadow-normal);
+	padding: 3rem;
+}
+
+.devfinder__result-container--lightmode {
+	background-color: #fff;
+}
+
+.devfinder__result-container--darkmode {
+	background-color: var(--darkmode-tertiary-color);
+}
+
+.result-container__top-information {
+	width: 100%;
+	height: 7.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-information__profile-image-container {
+	width: 7.8rem;
+	height: 7.8rem;
+	border-radius: 50%;
+}
+
+.profile-image-container__image {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 50%;
+}
+
+.top-information__user-title-container {
+	width: 45%;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+.user-title-container__user-name {
+	font-size: var(--font-size-h1);
+	font-weight: 700;
+}
+
+.user-title-container__user-name--lightmode {
+	color: var(--lightmode-quaternary-color);
+}
+
+.user-title-container__user-name--darkmode {
+	color: var(--darkmode-secondary-color);
+}
+
+.user-title-container__name-link {
+	margin-bottom: 2rem;
+}
+
+.name-link__link {
+	text-decoration: none;
+	color: var(--lightmode-primary-color);
+	font-size: var(--font-size-h3);
+}
+
+.bio__text {
+	font-size: var(--font-size-body);
+	font-weight: 400;
+}
+
+.bio__text--lightmode {
+	color: var(--lightmode-tertiary-color);
+}
+
+.bio__text--darkmode {
+	color: var(--darkmode-secondary-color);	
+}
+
+.top-information__joined-info {
+	height: 100%;
+	padding-top: 0.5rem;
+	font-size: var(--font-size-body);
+}
+
+.top-information__joined-info--lightmode {
+	color: var(--lightmode-secondary-color);
+}
+
+.top-information__joined-info--darkmode {
+	color: var(--darkmode-secondary-color);
+}
+
+.result-container__statistic-container {
+	width: 76%;
+	height: 5.66rem;
+	border-radius: var(--border-radius-button);
+	margin-left: 10.2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5rem 0 2rem;
+}
+
+.result-container__statistic-container--lightmode {
+	background-color: #ecf1ff;
+}
+.result-container__statistic-container--darkmode {
+	background-color: var(--darkmode-tertiary-color);
+}
+
+.statistic-container__repos-container,
+.statistic-container__followers-container,
+.statistic-container__following-container {
+	display: flex;
+	flex-flow: column;
+}
+
+.repos-container__title,
+.followers-container__title,
+.following-container__title {
+	font-size: var(--font-size-h4);
+	font-weight: 400;
+}
+
+.statistics-container__titles--lightmode {
+	color: var(--lightmode-tertiary-color);
+}
+
+.statistics-container__titles--darkmode {
+	color: var(--darkmode-secondary-color);
+}
+
+.repos-container__value,
+.followers-container__value,
+.following-container__value {
+	font-size: var(--font-size-h2);
+	font-weight: 700;
+}
+
+.statistics-container__values--lightmode {
+	color: var(--lightmode-quaternary-color);
+}
+
+.statistics-container__values--darkmode {
+	color: var(--darkmode-secondary-color);
+}
+
+.result-container__socials-container {
+	height: 5.66rem;
+	border-radius: var(--border-radius-button);
+	margin-left: 10.2rem;
+	margin-top: 2rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.socials-container__divider-top,
+.socials-container__divider-bottom {
+	width: 100%;
+	display: flex;
+}
+
+.divider-top__location,
+.divider-top__twitter,
+.divider-bottom__homepage,
+.divider-bottom__company {
+	width: 50%;
+	text-decoration: none;
+	font-size: 1rem;
+	display: flex;
+	gap: 1.5rem;
+}
+
+.divider-top__location:hover,
+.divider-top__twitter:hover,
+.divider-bottom__homepage:hover,
+.divider-bottom__company:hover {
+	text-decoration: 1px solid underline #4B6A9B;
+}
+
+.socials--lightmode {
+	color: var(--lightmode-tertiary-color);
+}
+
+.socials--darkmode {
+	color: var(--darkmode-secondary-color);
+}
+
+.socials__notavailable--lightmode {
+	color: #4b6a9b70;
+	text-decoration: none;
+}
+
+.socials__notavailable--lightmode:hover {
+	text-decoration: none;
+}
+
+.socials__notavailable--darkmode {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.516);
+}
