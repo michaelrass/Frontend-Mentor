@@ -1,3 +1,3 @@
-import ExampleModule from "./modules/ExampleModule.js";
+import Colortheme from "./modules/Colortheme.js";
 
-ExampleModule();
+Colortheme();
