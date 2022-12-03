@@ -1,1 +1,28 @@
-/* Variables.css */
+:root {
+	/* Light Mode Colors */
+	--lightmode-primary-color: #0079FF;		/* RGB(0, 121, 255) */
+	--lightmode-secondary-color: #697C9A;		/* RGB(105, 124, 154 */
+	--lightmode-tertiary-color: #4B6A9B;		/* RGB(75, 106, 155) */
+	--lightmode-quaternary-color: #2B3442;	/* RGB(43, 52, 66) */
+	--lightmode-almostwhite-1: #F6F8FF;		/* RGB(246, 248, 255) */
+	--lightmode-almostwhite-2: #FEFEFE;		/* RGB(254, 254, 254) */
+
+	/* Dark Mode Colors */
+	--darkmode-primary-color: #0079FF;			/* RGB(0, 121, 255) */
+	--darkmode-secondary-color: #fff;			/* RGB(255, 255, 255) */
+	--darkmode-tertiary-color: #141D2F;		/* RGB(20, 29, 47) */ 
+	--darkmode-quaternary-color: #1E2A47;		/* RGB(30, 42, 71) */
+
+	/* Fonts Size Headers */
+	--font-size-h1: 1.73rem;	/* 26px */	/* BOLD */
+	--font-size-h2: 1.46rem;	/* 22px */	/* BOLD */
+	--font-size-h3: 1.06rem;	/* 16px */	/* REG. */
+	--font-size-h4: 0.86rem;	/* 13px */	/* REG. */
+	--font-size-body: 1rem; 	/* 15px */	/* REG. */
+	
+	/* Line Height Headers */
+	--line-height-h1: 2.53rem; /* 38px */
+	--line-height-h1: 2.20rem; /* 33px */
+	--line-height-h1: 1.60rem; /* 24px */
+	--line-height-h1: 1.33rem; /* 20px */
+}
