@@ -1,0 +1,12 @@
+.body__devfinder {
+	width: 100%;
+	height: 100%;
+	max-width: 48.66rem;		/* 730px */
+	max-height: 35.06rem;	/* 526px */
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	background-color: red;
+}

@@ -1,1 +1,25 @@
-/* html, body, anchor elements and basic css */
+html {
+	font-size: var(--font-size-body);
+}
+
+.body {
+	font-family: 'Space-Mono';
+	font-weight: 400;
+	font-style: normal;
+	width: 100%;
+	max-width: 1440px;
+	height: 100vh;
+	max-height: 900px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.body--lightmode {
+	background-color: var(--lightmode-almostwhite-1);
+}
+
+.body--darkmode {
+	background-color: var(--darkmode-tertiary-color);
+}

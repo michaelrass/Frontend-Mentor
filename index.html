@@ -3,11 +3,101 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Frontend Mentor</title>
+		<title>GIthub User Search App</title>
 		<link rel="stylesheet" href="./css/main.css">
 		<script type="module" src="./js/main.js"></script>
 	</head>
-	<body>
-		
+	<body class="body body--lightmode">
+		<div class="body__devfinder">
+			<section class="devfinder__title">
+				<h1 class="title__main-title">devfinder</h1>
+				<button class="title__color-mode">
+					<span class="color-mode__mode"></span>
+					<div class="color-mode__logo-container">
+						<img class="logo-container__logo" src="" alt="">
+					</div>
+				</button>
+			</section>
+
+			<section class="devfinder__search-container">
+				<input type="search" name="usersearch" id="usersearch" placeholder="Search Github username...">
+				<button class="search-container__button">Search</button>
+			</section>
+
+			<section class="devfinder__result-container">
+				<div class="result-container__top-information">
+					<div class="top-information__profile-image-container">
+						<img src="" alt="">
+					</div>
+
+					<div class="top-information__user-title-container">
+						<span class="user-title-container__user-name">
+							The Octocat
+						</span>
+
+						<span class="user-title-container__name-link">
+							<a class="name-link__link" href="">
+								@octocat
+							</a>
+						</span>
+
+						<span class="user-title-container__bio">
+							<p class="bio__text">
+								This profile has no bio
+							</p>
+						</span>
+					</div>
+
+					<div class="top-information__joined-info">
+						<span class="joined-info__info">
+							Joined 25 Jan 2011
+						</span>
+					</div>
+				</div>
+
+				<div class="result-container__statistic-container">
+					<div class="statistic-container__repos-container">
+						<span class="repos-container__title">Repos</span>
+						<span class="repos-container__value">8</span>
+					</div>
+
+					<div class="statistic-container__followers-container">
+						<span class="followers-container__title">Followers</span>
+						<span class="followers-container__value">3938</span>
+					</div>
+
+					<div class="statistic-container__following-container">
+						<span class="following-container__title">Following</span>
+						<span class="following-container__value">9</span>
+					</div>
+				</div>
+
+				<div class="result-container__socials-container">
+					<div class="socials-container__divider-top">
+						<a href="" class="divider-top__location">
+							<img class="location__location-logo" src="" alt="">
+							<span class="location__text">San Francisco</span>
+						</a>
+
+						<a href="" class="divider-top__twitter">
+							<img class="twitter__twitter-logo" src="" alt="">
+							<span class="twitter__text">Not Available</span>
+						</a>
+					</div>
+					
+					<div class="socials-container__divider-bottom">
+						<a href="" class="divider-bottom__homepage">
+							<img class="homepage__homepage-logo" src="" alt="">
+							<span class="homepage__text">https://github.blog</span>
+						</a>
+	
+						<a href="" class="divider-top__github-profile">
+							<img class="github-profile__github-logo" src="" alt="">
+							<span class="twitter__text">@github</span>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
 	</body>
 </html>

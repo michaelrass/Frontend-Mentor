@@ -2,3 +2,6 @@
 @import url(./reset.css);
 @import url(./fonts.css);
 @import url(./base.css);
+
+@import url(./modules/devfinder.css);
+@import url(./modules/devfinder-title.css);
