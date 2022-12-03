@@ -15,6 +15,7 @@
 
 .devfinder__search-container--darkmode {
 	background-color: var(--darkmode-quaternary-color);
+	box-shadow: unset;
 }
 
 #usersearchfield {
@@ -26,6 +27,16 @@
 	caret-color: var(--lightmode-primary-color);
 }
 
+.usersearchfield--lightmode {
+	color: #000;
+	background-color: #fff;
+}
+
+.usersearchfield--darkmode {
+	color: #fff;
+	background-color: var(--darkmode-quaternary-color);
+}
+
 #usersearchfield::-webkit-search-cancel-button {
 	appearance: none;
 }
@@ -35,9 +46,13 @@
 	font-family: 'Space-Mono';
 	font-weight: 400;
 	font-style: normal;
-	color: #4B6A9B;
 	text-decoration: none;
 }
+
+.usersearchfield--darkmode::placeholder {
+	color: #fff;
+}
+
 
 #usersearchfield:focus,
 #usersearchfield:active {

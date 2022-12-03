@@ -11,18 +11,23 @@
 		<div class="body__devfinder">
 			<section class="devfinder__title">
 				<h1 class="title__main-title">devfinder</h1>
-				<button class="title__color-mode title__color-mode--lightmode">
+				<button class="title__button-color-mode">
 					DARK
-					<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
-						<path class="moon-svg-path" d="M19.513 11.397a.701.701 0 00-.588.128 7.496 7.496 0 01-2.276 1.336 7.101 7.101 0 01-2.583.462 7.505 7.505 0 01-5.32-2.209 7.568 7.568 0 01-2.199-5.342c0-.873.154-1.72.41-2.49a6.904 6.904 0 011.227-2.21.657.657 0 00-.102-.924.701.701 0 00-.589-.128C5.32.61 3.427 1.92 2.072 3.666A10.158 10.158 0 000 9.83c0 2.8 1.125 5.342 2.967 7.19a10.025 10.025 0 007.16 2.98c2.353 0 4.527-.822 6.266-2.183a10.13 10.13 0 003.58-5.624.623.623 0 00-.46-.796z"
+					<!-- Moon Icon -->
+					<svg class="moon-svg" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+						<path class="moon-svg__path" d="M19.513 11.397a.701.701 0 00-.588.128 7.496 7.496 0 01-2.276 1.336 7.101 7.101 0 01-2.583.462 7.505 7.505 0 01-5.32-2.209 7.568 7.568 0 01-2.199-5.342c0-.873.154-1.72.41-2.49a6.904 6.904 0 011.227-2.21.657.657 0 00-.102-.924.701.701 0 00-.589-.128C5.32.61 3.427 1.92 2.072 3.666A10.158 10.158 0 000 9.83c0 2.8 1.125 5.342 2.967 7.19a10.025 10.025 0 007.16 2.98c2.353 0 4.527-.822 6.266-2.183a10.13 10.13 0 003.58-5.624.623.623 0 00-.46-.796z"
 						fill="#697C9A"
 						fill-rule="nonzero"
 						/>
 					</svg>
+					<!-- Sun Icon -->
+					<svg class="sun-svg" width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+							<path class="sun-svg__path" d="M13.545 6.455c-.9-.9-2.17-1.481-3.545-1.481a4.934 4.934 0 00-3.545 1.481c-.9.9-1.481 2.17-1.481 3.545 0 1.376.582 2.646 1.481 3.545.9.9 2.17 1.481 3.545 1.481a4.934 4.934 0 003.545-1.481c.9-.9 1.481-2.17 1.481-3.545a4.934 4.934 0 00-1.481-3.545zM10 3.413a.7.7 0 00.688-.688V.688A.7.7 0 0010 0a.7.7 0 00-.688.688v2.037a.7.7 0 00.688.688zM15.635 5.344l1.455-1.455a.67.67 0 000-.952.67.67 0 00-.952 0l-1.455 1.455a.67.67 0 000 .952c.238.264.66.264.952 0zM19.312 9.312h-2.037a.7.7 0 00-.688.688.7.7 0 00.688.688h2.037A.7.7 0 0020 10a.7.7 0 00-.688-.688zM15.608 14.656a.67.67 0 00-.952 0 .67.67 0 000 .952l1.455 1.455a.67.67 0 00.952 0 .67.67 0 000-.952l-1.455-1.455zM10 16.587a.7.7 0 00-.688.688v2.037A.7.7 0 0010 20a.7.7 0 00.688-.688v-2.037a.7.7 0 00-.688-.688zM4.365 14.656L2.91 16.111a.67.67 0 000 .952.67.67 0 00.952 0l1.455-1.455a.67.67 0 000-.952c-.238-.264-.66-.264-.952 0zM3.413 10a.7.7 0 00-.688-.688H.688A.7.7 0 000 10a.7.7 0 00.688.688h2.037A.7.7 0 003.413 10zM4.365 5.344a.67.67 0 00.952 0 .67.67 0 000-.952L3.862 2.937a.67.67 0 00-.952 0 .67.67 0 000 .952l1.455 1.455z"/>
+					</svg>
 				</button>
 			</section>
 
-			<section class="devfinder__search-container devfinder__search-container--lightmode">
+			<section class="devfinder__search-container">
 				<div>
 					<img src="/assets/img/icon-search.svg" alt="">
 				</div>
@@ -36,14 +41,14 @@
 				<button class="search-container__button search-container__button--lightmode">Search</button>
 			</section>
 
-			<section class="devfinder__result-container devfinder__result-container--lightmode">
+			<section class="devfinder__result-container">
 				<div class="result-container__top-information">
 					<div class="top-information__profile-image-container">
 						<img class="profile-image-container__image" src="" alt="">
 					</div>
 
 					<div class="top-information__user-title-container">
-						<span class="user-title-container__user-name user-title-container__user-name--lightmode">
+						<span class="user-title-container__user-name">
 							The Octocat
 						</span>
 
@@ -54,56 +59,56 @@
 						</span>
 
 						<span class="user-title-container__bio">
-							<p class="bio__text bio__text--lightmode">
-								This profile has no bio
+							<p class="bio__text">
+								Lorem ipsum dol ipsam deserunt in perspiciatis beatae officiis? Doloremque.
 							</p>
 						</span>
 					</div>
 
-					<div class="top-information__joined-info top-information__joined-info--lightmode">
+					<div class="top-information__joined-info">
 						<span class="joined-info__info">
 							Joined 25 Jan 2011
 						</span>
 					</div>
 				</div>
 
-				<div class="result-container__statistic-container result-container__statistic-container--lightmode">
+				<div class="result-container__statistic-container">
 					<div class="statistic-container__repos-container">
-						<span class="repos-container__title statistics-container__titles--lightmode">Repos</span>
-						<span class="repos-container__value statistics-container__values--lightmode">8</span>
+						<span class="repos-container__title">Repos</span>
+						<span class="repos-container__value">8</span>
 					</div>
 
 					<div class="statistic-container__followers-container">
-						<span class="followers-container__title statistics-container__titles--lightmode">Followers</span>
-						<span class="followers-container__value statistics-container__values--lightmode">3938</span>
+						<span class="followers-container__title">Followers</span>
+						<span class="followers-container__value">3938</span>
 					</div>
 
 					<div class="statistic-container__following-container">
-						<span class="following-container__title statistics-container__titles--lightmode">Following</span>
-						<span class="following-container__value statistics-container__values--lightmode">9</span>
+						<span class="following-container__title">Following</span>
+						<span class="following-container__value">9</span>
 					</div>
 				</div>
 
-				<div class="result-container__socials-container result-container__socials-container--lightmode">
+				<div class="result-container__socials-container">
 					<div class="socials-container__divider-top">
-						<a href="" class="divider-top__location socials--lightmode">
+						<a href="" class="divider-top__location">
 							<img class="location__location-logo" src="/assets/img/icon-location.svg" alt="">
 							<span class="location__text">San Francisco</span>
 						</a>
 
-						<a href="" class="divider-top__twitter socials--lightmode socials__notavailable--lightmode">
+						<a href="" class="divider-top__twitter">
 							<img class="twitter__twitter-logo" src="/assets/img/icon-twitter.svg" alt="">
 							<span class="twitter__text">Not Available</span>
 						</a>
 					</div>
 					
 					<div class="socials-container__divider-bottom">
-						<a href="" class="divider-bottom__homepage socials--lightmode">
+						<a href="" class="divider-bottom__homepage">
 							<img class="homepage__homepage-logo" src="/assets/img/icon-website.svg" alt="">
 							<span class="homepage__text">https://github.blog</span>
 						</a>
 	
-						<a href="" class="divider-bottom__company socials--lightmode">
+						<a href="" class="divider-bottom__company">
 							<img class="company__company-logo" src="/assets/img/icon-company.svg" alt="">
 							<span class="company__text">@github</span>
 						</a>

@@ -11,7 +11,8 @@
 }
 
 .devfinder__result-container--darkmode {
-	background-color: var(--darkmode-tertiary-color);
+	background-color: var(--darkmode-quaternary-color);
+	box-shadow: unset;
 }
 
 .result-container__top-information {
@@ -40,6 +41,7 @@
 	height: 100%;
 	display: flex;
 	flex-flow: column;
+	position: relative;
 }
 
 .user-title-container__user-name {
@@ -65,7 +67,15 @@
 	font-size: var(--font-size-h3);
 }
 
+.user-title-container__bio {
+	position: absolute;
+	top: 70%;
+	left: 0;
+	right: -13rem;
+}
+
 .bio__text {
+	width: 100%;
 	font-size: var(--font-size-body);
 	font-weight: 400;
 }
@@ -84,18 +94,19 @@
 	font-size: var(--font-size-body);
 }
 
-.top-information__joined-info--lightmode {
+.joined-info__info--lightmode {
 	color: var(--lightmode-secondary-color);
 }
 
-.top-information__joined-info--darkmode {
+.joined-info__info--darkmode {
 	color: var(--darkmode-secondary-color);
 }
 
 .result-container__statistic-container {
 	width: 76%;
-	height: 5.66rem;
+	height: 4.66rem;
 	border-radius: var(--border-radius-button);
+	margin-top: 2rem;
 	margin-left: 10.2rem;
 	display: flex;
 	justify-content: space-between;
