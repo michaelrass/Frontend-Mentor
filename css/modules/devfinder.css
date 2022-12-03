@@ -5,8 +5,7 @@
 	max-height: 35.06rem;	/* 526px */
 	display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	gap: 1rem;
-	background-color: red;
 }

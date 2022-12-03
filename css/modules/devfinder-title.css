@@ -1,0 +1,49 @@
+.devfinder__title {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title__main-title {
+	font-weight: 700;
+	font-size: var(--font-size-h1);
+}
+
+.title__main-title--lightmode {
+	color: #222731;
+}
+
+.title__main-title--darkmode {
+	color: #fff;
+}
+
+.title__color-mode {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+	font-size: var(--font-size-h4);
+	letter-spacing: 2.5px;
+	border: none;
+	font-weight: 700;
+}
+
+.title__color-mode--lightmode {
+	color: var(--lightmode-secondary-color);
+}
+
+.title__color-mode--lightmode:hover {
+	color: #222731;
+}
+
+.title__color-mode--darkmode {
+	color: var(--darkmode-secondary-color);
+}
+
+.moon-svg-path {
+	fill: var(--lightmode-secondary-color);
+}
+
+.moon-svg-path--hover {
+	fill: #222731;
+}
