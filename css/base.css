@@ -17,7 +17,7 @@ html {
 }
 
 .body--lightmode {
-	background-color: var(--lightmode-almostwhite-1);
+	background-color: #ecf1ff;
 }
 
 .body--darkmode {
